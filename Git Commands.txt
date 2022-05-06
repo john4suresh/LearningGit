@@ -1,0 +1,32 @@
+git init
+-- Create an empty Git repository or reinitialize an existing one
+
+git status
+-- Show the working tree status
+
+git add [File Name]
+-- Add file contents to the index
+
+git add .
+-- Add All files contents to the index (Including tracked and untracked files)
+
+git commit -m "[Commit Message]"
+-- Record changes to the repository
+   -m for inline Message
+
+git commit --amend
+-- Replace the tip of the current branch by creating a new commit.
+   If a file is forgettrn to add in commit, then amend command is used.
+   Just one commit a HEAD ref only.
+
+-----> Branching and Merging <-----
+*  master branch is default branch
+*  In 2020 Master to Main
+*  HEAD -> master
+*  HEAD currrent location in repo/branch. Last commit
+
+git branch
+-- List all the branches of repo
+
+git branch <branch-name>
+-- Make a new branch based upon the current HEAD
