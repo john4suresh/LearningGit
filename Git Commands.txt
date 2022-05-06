@@ -52,4 +52,6 @@ git branch -v
 *  Unstaged files will always follows you
 *  Before switching the branch, make sure that you commit or stash the files 
    --Including untracked files
-
+   
+git merge <branch-name>
+  -- Fast forward merge, when not commits is a head in this branch.
