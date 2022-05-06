@@ -19,6 +19,9 @@ git commit --amend
    If a file is forgettrn to add in commit, then amend command is used.
    Just one commit a HEAD ref only.
 
+git commit -a -m "[Commit Message]"
+-- Add and Commit the Message at a time
+
 -----> Branching and Merging <-----
 *  master branch is default branch
 *  In 2020 Master to Main
@@ -30,3 +33,19 @@ git branch
 
 git branch <branch-name>
 -- Make a new branch based upon the current HEAD
+
+git switch <branch-name>
+-- To switch branch in repo
+
+git checkout <branch-name>
+-- To switch branch using checkout
+
+git switch -c <branch-name>
+-- To create and switch branch
+
+git checkout -b <branch-name>
+-- To create and switch branch
+
+*  Unstaged files will always follows you
+*  Before switching the branch, make sure that you commit or stash the files 
+   --Including untracked files
