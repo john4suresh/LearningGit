@@ -7,3 +7,4 @@ Character 1
 John 1
 JOHN 2
 John 3
+JOHN 4
