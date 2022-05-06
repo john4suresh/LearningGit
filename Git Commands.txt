@@ -30,3 +30,6 @@ git branch
 
 git branch <branch-name>
 -- Make a new branch based upon the current HEAD
+
+git switch <branch-name>
+-- To switch branch
