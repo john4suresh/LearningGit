@@ -46,6 +46,10 @@ git switch -c <branch-name>
 git checkout -b <branch-name>
 -- To create and switch branch
 
+git branch -v
+-- List branch with latest commit
+
 *  Unstaged files will always follows you
 *  Before switching the branch, make sure that you commit or stash the files 
    --Including untracked files
+
